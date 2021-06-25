@@ -4,7 +4,7 @@
 
 
 object Deps {
-    private const val kotlinVersion = "1.4.31"
+    private const val kotlinVersion = "1.5.30-dev-2689"
 
     private const val lifecycleVersion = "2.2.0"
     private const val androidAppCompatVersion = "1.1.0"

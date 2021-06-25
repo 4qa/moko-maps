@@ -13,6 +13,8 @@ buildscript {
         mavenCentral()
         google()
         gradlePluginPortal()
+        maven("https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev")
+        maven { url = uri("https://mapbox.bintray.com/mapbox") }
 
         jcenter {
             content {
@@ -31,6 +33,7 @@ allprojects {
         mavenCentral()
         google()
 
+        maven("https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev")
         maven { url = uri("https://mapbox.bintray.com/mapbox") }
 
         jcenter {

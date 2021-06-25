@@ -35,7 +35,7 @@ actual class MapboxMarker(
         get() = TODO("rotation not work for markers of Mapbox")
         set(value) { TODO("rotation not work for markers of Mapbox") }
 
-    @ExperimentalTime
+    @OptIn(ExperimentalTime::class)
     override fun move(position: LatLng, rotation: Float, duration: Duration) {
         CATransaction.begin()
         CATransaction.setAnimationDuration(duration.inSeconds)
